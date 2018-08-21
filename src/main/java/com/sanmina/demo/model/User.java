@@ -1,4 +1,4 @@
-package com.sanmina.demo.models;
+package com.sanmina.demo.model;
 
 import javax.persistence.Access;
 import javax.persistence.AccessType;
@@ -26,10 +26,10 @@ public class User extends ParentEntity {
 	@Column(name = "second_surname", nullable = true, length = 255)
 	private String second_surname;
     
-	@Column(name = "phone", nullable = true, length = 255)
+	@Column(name = "phone", nullable = true, length = 30)
 	private String phone;
     
-	@Column(name = "addres", nullable = false, length = 255)
+	@Column(name = "addres", nullable = false, length = 150)
 	private String addres;
 	
 	public String getFirst_name() {

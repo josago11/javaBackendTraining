@@ -9,4 +9,8 @@ public class IndexControler {
 	public String getIndexPage() {
 		return "index";
 	}
+	@RequestMapping("/hola")
+	public String getMessage() {
+		return "index";
+	}
 }

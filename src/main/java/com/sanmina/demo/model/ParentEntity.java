@@ -1,4 +1,4 @@
-package com.sanmina.demo.models;
+package com.sanmina.demo.model;
 
 import java.io.Serializable;
 
